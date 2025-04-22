@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="@dimen/md_16dp"
     android:gravity="center"
     tools:context=".WelcomeFragment">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="256dp"
-        android:layout_height="256dp"
+        android:layout_width="@dimen/huge_256dp"
+        android:layout_height="@dimen/huge_256dp"
         app:lottie_autoPlay="true"
         app:lottie_colorFilter="@color/brand"
         app:lottie_loop="true"
@@ -27,14 +27,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="@dimen/md_16dp"
         style="@style/Heading"
         android:text="@string/seja_bem_vindo_a_rocketia"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/xmd_24dp"
         android:text="@string/escolha_uma_area_de_estudos"
         android:textColor="@color/text_body"
         style="@style/TextLarge"/>
@@ -42,10 +42,10 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnWrlcomeStart"
         android:layout_width="match_parent"
-        android:layout_height="54dp"
+        android:layout_height="@dimen/xlg_54dp"
         style="@style/PrimaryButton"
         android:text="@string/iniciar"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="@dimen/lg_36dp"
         />
 
 
