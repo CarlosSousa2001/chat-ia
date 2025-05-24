@@ -45,7 +45,7 @@
         android:layout_height="@dimen/xlg_54dp"
         style="@style/PrimaryButton"
         android:text="@string/iniciar"
-        android:layout_marginTop="@dimen/lg_36dp"
+        android:layout_marginTop="@dimen/xxmd_36dp"
         />
 
 
